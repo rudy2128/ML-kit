@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-mlkit-text-recognition:18.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef1e2c6476ae09bed04537e06a3f054b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62b382a8ea499747ce77b4d88f423060/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ead2651464c54d27ebc39050e9158c16/transformed/jetified-play-services-mlkit-text-recognition-18.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/943ecaca1a366a2344abf151b759f5e0/transformed/jetified-play-services-mlkit-text-recognition-18.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/943ecaca1a366a2344abf151b759f5e0/transformed/jetified-play-services-mlkit-text-recognition-18.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/943ecaca1a366a2344abf151b759f5e0/transformed/jetified-play-services-mlkit-text-recognition-18.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-mlkit-text-recognition/18.0.0/eb768ae030fdd6a8dc7974a0aab603b70b76b957/play-services-mlkit-text-recognition-18.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

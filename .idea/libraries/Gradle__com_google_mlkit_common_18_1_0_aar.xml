@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mlkit:common:18.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/749be100c9bf51bd68e734e76da7a7b1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56aa7702338063b46cd095ef03081730/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6ea4a729620f920d903624921da8b2a9/transformed/jetified-common-18.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c90641243896322be782e1450ebdf501/transformed/jetified-common-18.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c90641243896322be782e1450ebdf501/transformed/jetified-common-18.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c90641243896322be782e1450ebdf501/transformed/jetified-common-18.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/common/18.1.0/abc9db38026fa7930dd499315601ebfd19ef180d/common-18.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

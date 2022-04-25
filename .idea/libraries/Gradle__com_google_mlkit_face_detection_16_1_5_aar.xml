@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mlkit:face-detection:16.1.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c885d456194538e8fcafc30c036df94/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e3227558f3703de42821e0022b96a1d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fbc11149ee56dd12cf14fe6f66972c7d/transformed/jetified-face-detection-16.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/103894695e55a955db349fda17b97dfb/transformed/jetified-face-detection-16.1.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/103894695e55a955db349fda17b97dfb/transformed/jetified-face-detection-16.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/103894695e55a955db349fda17b97dfb/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/face-detection/16.1.5/ace98f39b262c59be4be4d52b871d1ba5dfff723/face-detection-16.1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

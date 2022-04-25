@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mlkit:vision-interfaces:16.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/611a54e213c6cfe849ef18976eb77ccd/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a5acb47fc119dd51023a87fe5b27dfe/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/872a45047b64fc5610c63cad328b4b53/transformed/jetified-vision-interfaces-16.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/410bedeb291e370c0b275e54f9ab47e9/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/410bedeb291e370c0b275e54f9ab47e9/transformed/jetified-vision-interfaces-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/410bedeb291e370c0b275e54f9ab47e9/transformed/jetified-vision-interfaces-16.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/vision-interfaces/16.0.0/745e6911e713b86e7e0548dac2a61a0c595faab/vision-interfaces-16.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
