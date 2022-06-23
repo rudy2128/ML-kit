@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/final/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/a/Desktop/ml/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/a/.gradle/caches/transforms-3/8aa9a48ab309a6058d7da29b6c5a2179/transformed/core-1.7.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/a/.gradle/caches/transforms-3/93e1856551d2ec97497f45549ad44355/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
+                    "source": "/Users/a/.gradle/caches/transforms-3/f1498b920df879287edebcf3bd0a58fb/transformed/appcompat-1.4.2/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/a/.gradle/caches/transforms-3/8aa9a48ab309a6058d7da29b6c5a2179/transformed/core-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

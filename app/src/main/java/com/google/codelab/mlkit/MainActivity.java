@@ -18,8 +18,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.util.Pair;
+import android.util.SparseArray;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -33,6 +37,7 @@ import com.google.mlkit.vision.face.Face;
 import com.google.mlkit.vision.face.FaceDetection;
 import com.google.mlkit.vision.face.FaceDetector;
 import com.google.mlkit.vision.face.FaceDetectorOptions;
+import com.google.mlkit.vision.interfaces.Detector;
 import com.google.mlkit.vision.text.Text;
 import com.google.mlkit.vision.text.TextRecognition;
 import com.google.mlkit.vision.text.TextRecognizer;
@@ -65,6 +70,7 @@ public class MainActivity extends AppCompatActivity{
     private Integer mImageMaxWidth;
     // Max height (portrait mode)
     private Integer mImageMaxHeight;
+    TextRecognizer recognizer;
 
     /**
      * Number of results to show in the UI.
@@ -149,7 +155,7 @@ public class MainActivity extends AppCompatActivity{
         } catch (IOException e) {
             e.printStackTrace();
         }
-        TextRecognizer recognizer = TextRecognition.getClient(DEFAULT_OPTIONS);
+        recognizer = TextRecognition.getClient(DEFAULT_OPTIONS);
         mTextButton.setEnabled(false);
         assert image != null;
         recognizer.process(image)
@@ -164,7 +170,13 @@ public class MainActivity extends AppCompatActivity{
                             mTextButton.setEnabled(true);
                             e.printStackTrace();
                         });
+        recognizer.setProcessor(new Detector.Processor<Text.TextBlock>()
     }
+
+
+
+
+
 
     private void processTextRecognitionResult(Text texts) {
         List<Text.TextBlock> blocks = texts.getTextBlocks();
@@ -178,8 +190,10 @@ public class MainActivity extends AppCompatActivity{
             for (int j = 0; j < lines.size(); j++) {
                 List<Text.Element> elements = lines.get(j).getElements();
                 for (int k = 0; k < elements.size(); k++) {
+
                     Graphic textGraphic = new TextGraphic(mGraphicOverlay, elements.get(k));
                     mGraphicOverlay.add(textGraphic);
+
 
                 }
             }

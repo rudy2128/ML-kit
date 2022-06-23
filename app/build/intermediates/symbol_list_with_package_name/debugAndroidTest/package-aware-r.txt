@@ -1,1 +1,0 @@
-com.google.codelab.mlkit.test
